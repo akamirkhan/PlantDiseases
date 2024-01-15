@@ -7,18 +7,61 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		127582782B544905007166B0 /* NetworkProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127582772B544905007166B0 /* NetworkProvider.swift */; };
+		12A43B732B54411C00C4DA43 /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A43B722B54411C00C4DA43 /* ImageView.swift */; };
+		12A43B752B54453400C4DA43 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A43B742B54453400C4DA43 /* Constants.swift */; };
+		12E49F922B543C36009C574B /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E49F912B543C36009C574B /* Endpoint.swift */; };
+		FDBD74F12B552A7400490D8E /* NavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBD74F02B552A7400490D8E /* NavigationBar.swift */; };
+		FDBD74F32B5531D800490D8E /* PesticideEndpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBD74F22B5531D800490D8E /* PesticideEndpoints.swift */; };
 		FDD341DF2B4FDD1A00561A12 /* PlantDiseasesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD341DE2B4FDD1A00561A12 /* PlantDiseasesApp.swift */; };
-		FDD341E12B4FDD1A00561A12 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD341E02B4FDD1A00561A12 /* ContentView.swift */; };
+		FDD341E12B4FDD1A00561A12 /* PesticidesScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD341E02B4FDD1A00561A12 /* PesticidesScreen.swift */; };
 		FDD341E32B4FDD1C00561A12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDD341E22B4FDD1C00561A12 /* Assets.xcassets */; };
 		FDD341E62B4FDD1C00561A12 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDD341E52B4FDD1C00561A12 /* Preview Assets.xcassets */; };
+		FDD341EE2B4FDFF200561A12 /* PesticidesScreenModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD341ED2B4FDFF100561A12 /* PesticidesScreenModel.swift */; };
+		FDD341F12B4FE02D00561A12 /* PesticideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD341F02B4FE02D00561A12 /* PesticideView.swift */; };
+		FDD341F32B4FE0A400561A12 /* Pesticide.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD341F22B4FE0A400561A12 /* Pesticide.swift */; };
+		FDD341FA2B503D0B00561A12 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = FDD341F92B503D0B00561A12 /* Kingfisher */; };
+		FDD341FE2B5148B900561A12 /* PesticideDetailScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD341FD2B5148B900561A12 /* PesticideDetailScreen.swift */; };
+		FDD342002B514DDB00561A12 /* PesticideCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD341FF2B514DDB00561A12 /* PesticideCategory.swift */; };
+		FDD342032B5156E000561A12 /* PesticideImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD342022B5156E000561A12 /* PesticideImageView.swift */; };
+		FDD342072B5163CA00561A12 /* PesticideDescriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD342062B5163CA00561A12 /* PesticideDescriptionView.swift */; };
+		FDD3420C2B51691900561A12 /* ClosureAliases.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD3420B2B51691900561A12 /* ClosureAliases.swift */; };
+		FDD3420E2B5169D200561A12 /* WhereBuyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD3420D2B5169D200561A12 /* WhereBuyButton.swift */; };
+		FDD342122B518CB600561A12 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD342112B518CB600561A12 /* SearchBar.swift */; };
+		FDD342172B52759000561A12 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD342162B52759000561A12 /* NetworkError.swift */; };
+		FDD3421B2B52762000561A12 /* Publisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD3421A2B52762000561A12 /* Publisher.swift */; };
+		FDD3421D2B52849100561A12 /* PesticideDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD3421C2B52849100561A12 /* PesticideDTO.swift */; };
+		FDD342212B52867B00561A12 /* PesticideService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD342202B52867B00561A12 /* PesticideService.swift */; };
+		FDD342272B53EF2A00561A12 /* ViewState.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD342262B53EF2A00561A12 /* ViewState.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		127582772B544905007166B0 /* NetworkProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkProvider.swift; sourceTree = "<group>"; };
+		12A43B722B54411C00C4DA43 /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
+		12A43B742B54453400C4DA43 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		12E49F912B543C36009C574B /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
+		FDBD74F02B552A7400490D8E /* NavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBar.swift; sourceTree = "<group>"; };
+		FDBD74F22B5531D800490D8E /* PesticideEndpoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PesticideEndpoints.swift; sourceTree = "<group>"; };
 		FDD341DB2B4FDD1A00561A12 /* PlantDiseases.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlantDiseases.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDD341DE2B4FDD1A00561A12 /* PlantDiseasesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantDiseasesApp.swift; sourceTree = "<group>"; };
-		FDD341E02B4FDD1A00561A12 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FDD341E02B4FDD1A00561A12 /* PesticidesScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PesticidesScreen.swift; sourceTree = "<group>"; };
 		FDD341E22B4FDD1C00561A12 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FDD341E52B4FDD1C00561A12 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FDD341ED2B4FDFF100561A12 /* PesticidesScreenModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PesticidesScreenModel.swift; sourceTree = "<group>"; };
+		FDD341F02B4FE02D00561A12 /* PesticideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PesticideView.swift; sourceTree = "<group>"; };
+		FDD341F22B4FE0A400561A12 /* Pesticide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pesticide.swift; sourceTree = "<group>"; };
+		FDD341FD2B5148B900561A12 /* PesticideDetailScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PesticideDetailScreen.swift; sourceTree = "<group>"; };
+		FDD341FF2B514DDB00561A12 /* PesticideCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PesticideCategory.swift; sourceTree = "<group>"; };
+		FDD342022B5156E000561A12 /* PesticideImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PesticideImageView.swift; sourceTree = "<group>"; };
+		FDD342062B5163CA00561A12 /* PesticideDescriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PesticideDescriptionView.swift; sourceTree = "<group>"; };
+		FDD3420B2B51691900561A12 /* ClosureAliases.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClosureAliases.swift; sourceTree = "<group>"; };
+		FDD3420D2B5169D200561A12 /* WhereBuyButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhereBuyButton.swift; sourceTree = "<group>"; };
+		FDD342112B518CB600561A12 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		FDD342162B52759000561A12 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		FDD3421A2B52762000561A12 /* Publisher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Publisher.swift; sourceTree = "<group>"; };
+		FDD3421C2B52849100561A12 /* PesticideDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PesticideDTO.swift; sourceTree = "<group>"; };
+		FDD342202B52867B00561A12 /* PesticideService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PesticideService.swift; sourceTree = "<group>"; };
+		FDD342262B53EF2A00561A12 /* ViewState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewState.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,12 +69,42 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FDD341FA2B503D0B00561A12 /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		127582792B5467ED007166B0 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				FDD341E42B4FDD1C00561A12 /* Preview Content */,
+				FDD342102B51725900561A12 /* Resources */,
+				FDD3420A2B5168CE00561A12 /* Extensions */,
+				12A43B712B54410800C4DA43 /* UIComponents */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		12A43B712B54410800C4DA43 /* UIComponents */ = {
+			isa = PBXGroup;
+			children = (
+				12A43B722B54411C00C4DA43 /* ImageView.swift */,
+			);
+			path = UIComponents;
+			sourceTree = "<group>";
+		};
+		12E49F902B543C2B009C574B /* NetworkProvider */ = {
+			isa = PBXGroup;
+			children = (
+				FDD342162B52759000561A12 /* NetworkError.swift */,
+				12E49F912B543C36009C574B /* Endpoint.swift */,
+				127582772B544905007166B0 /* NetworkProvider.swift */,
+			);
+			path = NetworkProvider;
+			sourceTree = "<group>";
+		};
 		FDD341D22B4FDD1A00561A12 = {
 			isa = PBXGroup;
 			children = (
@@ -51,10 +124,11 @@
 		FDD341DD2B4FDD1A00561A12 /* PlantDiseases */ = {
 			isa = PBXGroup;
 			children = (
+				127582792B5467ED007166B0 /* Core */,
 				FDD341DE2B4FDD1A00561A12 /* PlantDiseasesApp.swift */,
-				FDD341E02B4FDD1A00561A12 /* ContentView.swift */,
-				FDD341E22B4FDD1C00561A12 /* Assets.xcassets */,
-				FDD341E42B4FDD1C00561A12 /* Preview Content */,
+				FDD341EC2B4FDDE500561A12 /* Screens */,
+				FDD341F42B4FE0AA00561A12 /* Models */,
+				FDD342132B5274FA00561A12 /* Services */,
 			);
 			path = PlantDiseases;
 			sourceTree = "<group>";
@@ -65,6 +139,109 @@
 				FDD341E52B4FDD1C00561A12 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FDD341EC2B4FDDE500561A12 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				FDD341FB2B513C0000561A12 /* PesticidesScreen */,
+				FDD341FC2B51489600561A12 /* PesticideDetailScreen */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		FDD341EF2B4FDFF800561A12 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FDD342262B53EF2A00561A12 /* ViewState.swift */,
+				FDD341F02B4FE02D00561A12 /* PesticideView.swift */,
+				FDD342112B518CB600561A12 /* SearchBar.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FDD341F42B4FE0AA00561A12 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FDD341F22B4FE0A400561A12 /* Pesticide.swift */,
+				FDD341FF2B514DDB00561A12 /* PesticideCategory.swift */,
+				12A43B742B54453400C4DA43 /* Constants.swift */,
+				FDD342242B52874500561A12 /* DTOs */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FDD341FB2B513C0000561A12 /* PesticidesScreen */ = {
+			isa = PBXGroup;
+			children = (
+				FDD341E02B4FDD1A00561A12 /* PesticidesScreen.swift */,
+				FDD341ED2B4FDFF100561A12 /* PesticidesScreenModel.swift */,
+				FDD341EF2B4FDFF800561A12 /* Views */,
+			);
+			path = PesticidesScreen;
+			sourceTree = "<group>";
+		};
+		FDD341FC2B51489600561A12 /* PesticideDetailScreen */ = {
+			isa = PBXGroup;
+			children = (
+				FDD341FD2B5148B900561A12 /* PesticideDetailScreen.swift */,
+				FDD342012B51557A00561A12 /* Views */,
+			);
+			path = PesticideDetailScreen;
+			sourceTree = "<group>";
+		};
+		FDD342012B51557A00561A12 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FDD342022B5156E000561A12 /* PesticideImageView.swift */,
+				FDD342062B5163CA00561A12 /* PesticideDescriptionView.swift */,
+				FDBD74F02B552A7400490D8E /* NavigationBar.swift */,
+				FDD3420D2B5169D200561A12 /* WhereBuyButton.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FDD3420A2B5168CE00561A12 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				FDD3420B2B51691900561A12 /* ClosureAliases.swift */,
+				FDD3421A2B52762000561A12 /* Publisher.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		FDD342102B51725900561A12 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FDD341E22B4FDD1C00561A12 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		FDD342132B5274FA00561A12 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				12E49F902B543C2B009C574B /* NetworkProvider */,
+				FDD3421F2B52861A00561A12 /* PesticideService */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		FDD3421F2B52861A00561A12 /* PesticideService */ = {
+			isa = PBXGroup;
+			children = (
+				FDD342202B52867B00561A12 /* PesticideService.swift */,
+				FDBD74F22B5531D800490D8E /* PesticideEndpoints.swift */,
+			);
+			path = PesticideService;
+			sourceTree = "<group>";
+		};
+		FDD342242B52874500561A12 /* DTOs */ = {
+			isa = PBXGroup;
+			children = (
+				FDD3421C2B52849100561A12 /* PesticideDTO.swift */,
+			);
+			path = DTOs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +260,9 @@
 			dependencies = (
 			);
 			name = PlantDiseases;
+			packageProductDependencies = (
+				FDD341F92B503D0B00561A12 /* Kingfisher */,
+			);
 			productName = PlantDiseases;
 			productReference = FDD341DB2B4FDD1A00561A12 /* PlantDiseases.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +291,9 @@
 				Base,
 			);
 			mainGroup = FDD341D22B4FDD1A00561A12;
+			packageReferences = (
+				FDD341F82B503D0B00561A12 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = FDD341DC2B4FDD1A00561A12 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,8 +320,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FDD341E12B4FDD1A00561A12 /* ContentView.swift in Sources */,
+				12A43B732B54411C00C4DA43 /* ImageView.swift in Sources */,
+				FDD341E12B4FDD1A00561A12 /* PesticidesScreen.swift in Sources */,
+				FDBD74F12B552A7400490D8E /* NavigationBar.swift in Sources */,
+				FDD341F12B4FE02D00561A12 /* PesticideView.swift in Sources */,
+				FDD341FE2B5148B900561A12 /* PesticideDetailScreen.swift in Sources */,
+				FDD342002B514DDB00561A12 /* PesticideCategory.swift in Sources */,
+				FDD341F32B4FE0A400561A12 /* Pesticide.swift in Sources */,
 				FDD341DF2B4FDD1A00561A12 /* PlantDiseasesApp.swift in Sources */,
+				FDD342032B5156E000561A12 /* PesticideImageView.swift in Sources */,
+				FDD3421D2B52849100561A12 /* PesticideDTO.swift in Sources */,
+				FDD342072B5163CA00561A12 /* PesticideDescriptionView.swift in Sources */,
+				FDD342172B52759000561A12 /* NetworkError.swift in Sources */,
+				FDD3421B2B52762000561A12 /* Publisher.swift in Sources */,
+				FDD342212B52867B00561A12 /* PesticideService.swift in Sources */,
+				12E49F922B543C36009C574B /* Endpoint.swift in Sources */,
+				127582782B544905007166B0 /* NetworkProvider.swift in Sources */,
+				FDBD74F32B5531D800490D8E /* PesticideEndpoints.swift in Sources */,
+				FDD342122B518CB600561A12 /* SearchBar.swift in Sources */,
+				12A43B752B54453400C4DA43 /* Constants.swift in Sources */,
+				FDD3420C2B51691900561A12 /* ClosureAliases.swift in Sources */,
+				FDD342272B53EF2A00561A12 /* ViewState.swift in Sources */,
+				FDD341EE2B4FDFF200561A12 /* PesticidesScreenModel.swift in Sources */,
+				FDD3420E2B5169D200561A12 /* WhereBuyButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,14 +475,18 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"PlantDiseases/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"PlantDiseases/Core/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PlantDiseases/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -299,14 +507,18 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"PlantDiseases/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"PlantDiseases/Core/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PlantDiseases/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -342,6 +554,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FDD341F82B503D0B00561A12 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.10.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FDD341F92B503D0B00561A12 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FDD341F82B503D0B00561A12 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = FDD341D32B4FDD1A00561A12 /* Project object */;
 }
