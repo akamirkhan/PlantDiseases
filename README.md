@@ -1,5 +1,4 @@
 # PlantDiseases
-> Application for plant diseases.
 
 #### Preview
 
